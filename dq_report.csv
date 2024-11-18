@@ -1,0 +1,9 @@
+Table,DQ Check,Column,Status,Bad Data
+Carrier,Uniqueness,"['code', 'description']",Failed,"    code          description
+735  ZUQ  Zuliana De Aviacion
+742  07Q  Flair Airlines Ltd.
+744  07Q  Flair Airlines Ltd.
+745  ZUQ  Zuliana De Aviacion"
+Airports,Completeness,"['iata', 'airport', 'city', 'state', 'country', 'lat', 'longt']",Passed,
+Flights,Consistency,Dest,Failed,"Missing values detected: Missing values in Source: 1, Missing values in Target: 0"
+Flights,Consistency,ArrDelay,Failed,"Missing values detected: Missing values in Source: 7, Missing values in Target: 0"
